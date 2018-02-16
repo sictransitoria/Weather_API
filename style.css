@@ -1,15 +1,15 @@
 body {
 	margin: 0 auto;
-	font-family: 'Open Sans', sans-serif;
-	background-color: #b3d9ff;
-	color: #ffffff;
-	padding-bottom: 30px;
+	font-family: Open Sans, 'sans-serif';
+	background-color: #ffffff;
+	color: #000000;
+	padding: 20px 0px 50px 0px;
 
 }
 
 .weatherelements {
-	font-size: 30px;
-	font-weight: 200;
+	font-size: 40px;
+	font-weight: 100;
 	margin: 10px 0px 10px 50px;
 
 }
@@ -17,9 +17,10 @@ body {
 
 h1 {
 	text-align: center;
-	font-weight: 800;
-	font-size: 50px;
+	font-weight: 100;
+	font-size:70px;
 	margin: 10px;
+	padding-bottom: 10px;
 
 }
 
@@ -34,8 +35,23 @@ img {
 button {
 	font-family: Open Sans, sans-serif;
 	font-weight: 100;
-	font-size: 16px;
+	font-size: 20px;
 	padding: 10px;
 	border-radius: 10px;
+
+}
+
+.enter {
+
+
+}
+
+input {
+	width: 250px;
+	height: 20px;
+	font-size: 20px;
+	font-family: Open Sans;
+	font-weight: 100;
+	margin-left: 1px;
 
 }
