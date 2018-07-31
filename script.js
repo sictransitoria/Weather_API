@@ -1,3 +1,5 @@
+// Get weather by city; onclick
+
 $("#btn").click(function(){ 
 var city = $("#city").val();
  $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=' + city + ',us&units=imperial&APPID=710d968a9a3a8f2c6da4dc4dfa8ec87b', 
@@ -15,4 +17,4 @@ var city = $("#city").val();
   
   })
 
-})
+});
